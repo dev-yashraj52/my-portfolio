@@ -154,6 +154,21 @@ p {
     font-weight: 500;
 }
 
+.skill-links {
+    display: flex;
+}
+
+.skill-links a {
+    padding-right: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.skill-links a.active {
+    color: #FFC255;
+    opacity: 100%;
+}
 
 .skills .right-container {
     flex: 2 1 0;
