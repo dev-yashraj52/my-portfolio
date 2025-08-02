@@ -231,3 +231,18 @@ p {
 
 
 /* Mobile Responsive */
+@media(max-width: 500px) {
+    .navbar {
+        height: 140px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar ul {
+        padding-top: 15px;
+        margin-top: 5px;
+    }
+}
