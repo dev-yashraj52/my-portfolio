@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+/* navbar */
+.navbar {
+    height: 100px;
+    background-color: #333645;
+}
+
+.navbar h1 {
+    color: #FFC255;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+
+.navbar a {
+    padding: 10px;
+    margin: 0 5px
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    border-bottom: 1.5px #FFC255 solid;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+/* hero section */
+
+.hero {
+    min-height: 65vh;
+    background-color: #333645;
+}
+
+.hero .flex {
+    min-height: 65vh;
+}
+
+.hero .left-container,
+.hero .right-container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero .left-container {
+    justify-content: flex-end;
+    flex: 3 1 0;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding: 0px 100px 15px 60px;
+    /*top right bottom left*/
+}
+
+.hero h1 {
+    font-size: 5rem;
+    translate: 0px 80px;
+}
+
+#hero-image {
+    align-self: flex-end;
+    height: 400px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    margin-top: -60px;
+}
+
+.links a {
+    font-size: 1.8rem;
+}
+
+.hero .right-container {
+    flex: 2 1 0;
+}
+
+.hero .right-container p {
+    margin: 10px 0;
+    opacity: 60%;
+    font-size: 18px;
+    line-height: 1.3;
+
+}
+
+.hero .right-container h2 {
+    font-size: 35px;
+    line-height: 1.2;
+    padding: 15px 0;
+    color: white;
+}
+
+.hero .right-container a {
+    color: #FFC255;
+    padding: 10px 0;
+}
+
+/* utilities */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
