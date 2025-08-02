@@ -133,6 +133,14 @@ p {
     min-height: 100vh;
 }
 
+.skills .left-container {
+    flex-direction: column;
+}
+
+.skill-icon img {
+    width: 50px;
+}
+
 
 /* utilities */
 .container {
