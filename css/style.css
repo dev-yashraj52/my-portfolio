@@ -127,6 +127,13 @@ p {
     padding: 10px 0;
 }
 
+/* Skills Section */
+.skills {
+    background-color: #242734;
+    min-height: 100vh;
+}
+
+
 /* utilities */
 .container {
     max-width: 1400px;
