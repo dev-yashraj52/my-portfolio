@@ -130,12 +130,13 @@ p {
 /* Skills Section */
 .skills {
     background-color: #242734;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .skills .container {
-    min-height: 100vh;
+    min-height: 80vh;
     flex-wrap: wrap;
+    height: fit-content;
 }
 
 .skills .left-container {
@@ -146,6 +147,13 @@ p {
     align-self: flex-start;
     margin-top: 10vh;
 }
+
+.skills .left-container h3 {
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+
 
 .skills .right-container {
     flex: 2 1 0;
