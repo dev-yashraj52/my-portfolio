@@ -165,6 +165,10 @@ p {
     opacity: 70%;
 }
 
+.skill-links a:hover {
+    opacity: 100%;
+}
+
 .skill-links a.active {
     color: #FFC255;
     opacity: 100%;
