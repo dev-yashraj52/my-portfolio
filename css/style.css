@@ -64,7 +64,7 @@ p {
     background-color: #333645;
 }
 
-.hero .flex {
+.hero .container {
     min-height: 65vh;
 }
 
@@ -250,11 +250,11 @@ p {
     }
 
     /* hero section */
+
     .hero .container {
         flex-direction: column;
-        justify-items: flex-start;
+        align-items: flex-start;
         padding: 0 20px;
-        margin-top: -10em;
         overflow: hidden;
     }
 
@@ -263,7 +263,7 @@ p {
     }
 
     .hero .right-container {
-        padding: 0 20px;
+        padding: 40px 20px;
     }
 
     .hero h1 {
