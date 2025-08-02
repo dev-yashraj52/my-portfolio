@@ -254,6 +254,7 @@ p {
         justify-items: flex-start;
         padding: 0 20px;
         margin-top: -10em;
+        overflow: hidden;
     }
 
     .hero .left-container {
