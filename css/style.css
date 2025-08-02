@@ -260,6 +260,7 @@ p {
 
     .hero .left-container {
         padding: 0 0px;
+        align-self: center;
     }
 
     .hero .right-container {
@@ -274,7 +275,7 @@ p {
 
     #hero-image {
         justify-content: center;
-        height: 350px;
+        height: 70vw;
     }
 
     /* skills */
