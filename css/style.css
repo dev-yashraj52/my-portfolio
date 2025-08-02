@@ -133,12 +133,40 @@ p {
     min-height: 100vh;
 }
 
+.skills .container {
+    min-height: 100vh;
+}
+
 .skills .left-container {
+    flex-direction: column;
+    padding: 40px 0px 40px 40px;
+    align-items: flex-start;
+    flex: 2 1 0;
+}
+
+.skills .right-container {
+    flex: 2 1 0;
+}
+
+.skill-item {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 300px;
+    max-width: 300px;
+    margin: 20px 0;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.skill-info {
+    display: flex;
     flex-direction: column;
 }
 
 .skill-icon img {
     width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 
