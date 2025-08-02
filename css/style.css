@@ -253,6 +253,7 @@ p {
         flex-direction: column;
         justify-items: flex-start;
         padding: 0 20px;
+        margin-top: -10em;
     }
 
     .hero .left-container {
@@ -261,6 +262,7 @@ p {
 
     .hero h1 {
         font-size: 4rem;
+        align-self: center;
         translate: 0px 0px;
     }
 
