@@ -72,6 +72,7 @@ p {
 .hero .right-container {
     flex-direction: column;
     align-items: flex-start;
+    min-height: 65vh;
 }
 
 .hero .left-container {
