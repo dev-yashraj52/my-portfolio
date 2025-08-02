@@ -181,8 +181,8 @@ p {
 .skill-item {
     display: flex;
     background-color: rgba(0, 0, 0, 0.3);
-    width: 300px;
-    max-width: 300px;
+    width: 375px;
+    min-width: 300px;
     margin: 20px 0;
     padding: 7px;
     border-radius: 10px;
@@ -297,6 +297,10 @@ p {
     .skill-links a {
         padding-right: 20px;
         margin: 0 auto;
+    }
+
+    .skill-item {
+        width: 80vw;
     }
 
 
