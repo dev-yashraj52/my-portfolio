@@ -260,6 +260,10 @@ p {
         padding: 0 0px;
     }
 
+    .hero .right-container {
+        padding: 0 20px;
+    }
+
     .hero h1 {
         font-size: 4rem;
         align-self: center;
@@ -272,6 +276,20 @@ p {
     }
 
     /* skills */
+    .skills .container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .skills .left-container {
+        padding: 0 20px;
+        margin-top: 5vh;
+    }
+
+    .skill-links a {
+        padding-right: 20px;
+        margin: 0 auto;
+    }
 
 
 }
