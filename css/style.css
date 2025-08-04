@@ -140,6 +140,7 @@ p {
 .skills .container {
     min-height: 80vh;
     height: fit-content;
+    overflow: hidden;
 }
 
 .skills .left-container {
@@ -207,6 +208,16 @@ p {
     width: 50px;
     border-radius: 50%;
     margin: 0 20px 0 8px;
+}
+
+.skill-item#item2 img,
+.skill-item#item11 img {
+    border-radius: 0;
+}
+
+.skill-item#item6 img,
+.skill-item#item7 img {
+    background-color: aliceblue
 }
 
 .skill-title p {
