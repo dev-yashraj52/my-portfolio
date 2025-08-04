@@ -191,6 +191,23 @@ p {
     margin: 20px 0;
     padding: 7px;
     border-radius: 10px;
+    display: none;
+}
+
+.skill-item.language {
+    display: flex;
+}
+
+.skill-item.framework {
+    display: flex;
+}
+
+.skill-item.tools {
+    display: flex;
+}
+
+.skill-item.more-skills {
+    display: flex;
 }
 
 .skill-icon img {
