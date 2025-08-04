@@ -194,19 +194,7 @@ p {
     display: none;
 }
 
-.skill-item.language {
-    display: flex;
-}
-
-.skill-item.framework {
-    display: flex;
-}
-
-.skill-item.tools {
-    display: flex;
-}
-
-.skill-item.more-skills {
+.skill-item.active {
     display: flex;
 }
 
