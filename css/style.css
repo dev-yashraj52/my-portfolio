@@ -21,6 +21,11 @@ a {
     color: white;
 }
 
+button {
+    all: unset;
+    cursor: pointer;
+}
+
 p {
     color: white;
 }
@@ -156,7 +161,7 @@ p {
     display: flex;
 }
 
-.skill-links a {
+.skill-links button {
     padding-right: 30px;
     margin-right: 10px;
     font-weight: 300;
@@ -164,11 +169,11 @@ p {
     opacity: 70%;
 }
 
-.skill-links a:hover {
+.skill-links button:hover {
     opacity: 100%;
 }
 
-.skill-links a.active {
+.skill-links button.active {
     color: #FFC255;
     opacity: 100%;
 }
@@ -294,7 +299,7 @@ p {
 
     }
 
-    .skill-links a {
+    .skill-links button {
         padding-right: 20px;
         margin: 0 auto;
     }
