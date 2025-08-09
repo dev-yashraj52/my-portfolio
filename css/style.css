@@ -454,9 +454,16 @@ p {
     .card-item {
         max-width: 40vw;
         max-height: 40vw;
-        width: 35vw;
-        height: 35vw;
+        width: 36vw;
+        height: 36vw;
     }
 
+    .card-info .text1 {
+        font-size: 17px;
+    }
+
+    .card-info .text2 {
+        font-size: 15px;
+    }
 
 }
