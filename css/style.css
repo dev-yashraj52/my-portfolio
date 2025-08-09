@@ -266,6 +266,25 @@ p {
     align-self: flex-start;
 }
 
+.card-container {
+    gap: 40px;
+}
+
+.score-container {
+    padding: 10px 20px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8%;
+    align-items: center;
+    justify-content: center;
+}
+
 .circle-shape {
     border: 10px #FFB347 solid;
     height: 100px;
@@ -274,10 +293,16 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 
 .circle-shape.item1 {
     border: 10px #FF6B35 solid;
+}
+
+.circle-shape p {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* utilities */
