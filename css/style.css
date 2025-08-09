@@ -148,7 +148,7 @@ p {
     flex-direction: column;
     padding: 40px 20px 40px 20px;
     align-items: flex-start;
-    flex: 2 1 0;
+    flex: 3 1 0;
     align-self: flex-start;
     margin-top: 10vh;
 }
@@ -237,8 +237,24 @@ p {
     flex-direction: column;
 }
 
+/* Overview Side */
+.skills .right-container,
+.overview-container {
+    flex-direction: column;
+}
 
+.skills .right-container {
+    align-items: flex-start;
+    align-self: flex-start;
+    margin-top: 10vh;
+    padding: 40px 20px 40px 20px;
+}
 
+.skills .right-container h4 {
+    font-size: 2.5rem;
+    margin: 20px 0px;
+    font-weight: 500;
+}
 
 /* utilities */
 .container {
