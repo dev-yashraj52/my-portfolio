@@ -296,6 +296,18 @@ p {
     justify-content: center;
 }
 
+.card-info .text1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-info .text2 {
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 20px;
+    font-style: italic;
+}
+
 .circle-shape {
     border: 10px #FFB347 solid;
     height: 100px;
@@ -312,7 +324,7 @@ p {
 }
 
 .circle-shape p {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
 }
 
