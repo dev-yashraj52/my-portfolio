@@ -437,5 +437,26 @@ p {
         width: 80vw;
     }
 
+    .skills .right-container {
+        padding: 0 20px;
+        margin-top: 5px;
+    }
+
+    .score-container {
+        padding: 10px;
+    }
+
+    .card-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-item {
+        max-width: 40vw;
+        max-height: 40vw;
+        width: 35vw;
+        height: 35vw;
+    }
+
 
 }
