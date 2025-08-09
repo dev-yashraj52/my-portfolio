@@ -256,6 +256,30 @@ p {
     font-weight: 500;
 }
 
+#overview-subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.overview-container .card-container {
+    align-self: flex-start;
+}
+
+.circle-shape {
+    border: 10px #FFB347 solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-shape.item1 {
+    border: 10px #FF6B35 solid;
+}
+
 /* utilities */
 .container {
     max-width: 1400px;
