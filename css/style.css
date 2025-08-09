@@ -289,6 +289,13 @@ p {
     justify-content: center;
 }
 
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .circle-shape {
     border: 10px #FFB347 solid;
     height: 100px;
