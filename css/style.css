@@ -297,12 +297,12 @@ p {
 }
 
 .card-info .text1 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
 }
 
 .card-info .text2 {
-    font-weight: 400;
+    font-weight: 300;
     opacity: 70%;
     font-size: 20px;
     font-style: italic;
@@ -330,13 +330,21 @@ p {
 
 .card-quote {
     display: flex;
-    height: 200px;
+    height: 150px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     align-items: center;
     justify-content: center;
     border-radius: 20px;
     margin-top: 45px;
+}
+
+.card-quote p {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+    padding: 10px 50px;
+    opacity: 70%;
 }
 
 /* utilities */
