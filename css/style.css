@@ -263,6 +263,7 @@ p {
 }
 
 .overview-container .card-container {
+    display: flex;
     align-self: flex-start;
 }
 
@@ -475,4 +476,13 @@ p {
         font-size: 22px;
     }
 
+    .card-quote {
+        margin-top: 30px;
+        padding: 25px 0px;
+        height: 150px;
+    }
+
+    .card-quote p {
+        font-size: 20px;
+    }
 }
