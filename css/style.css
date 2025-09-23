@@ -354,6 +354,32 @@ p {
     min-height: 80vh;
 }
 
+.contact .container {
+    align-items: center;
+    min-height: 80vh;
+}
+
+.contact .left-container {
+    flex: 3 1 0;
+    justify-content: flex-start;
+    padding: 40px 20px 40px 20px;
+}
+
+.header-form .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.header-form .description {
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 70%;
+}
+
+.contact .right-container {
+    flex: 2 1 0;
+}
+
 /* footer */
 footer {
     background-color: #242734;
