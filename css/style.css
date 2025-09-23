@@ -354,6 +354,12 @@ p {
     min-height: 80vh;
 }
 
+/* footer */
+footer {
+    background-color: #242734;
+    min-height: 25vh;
+}
+
 /* utilities */
 .container {
     max-width: 1400px;
