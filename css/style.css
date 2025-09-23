@@ -412,8 +412,8 @@ p {
     }
 
     #hero-image {
-        justify-content: center;
-        height: 70vw;
+        align-self: center;
+        height: 80vw;
     }
 
     /* skills */
