@@ -622,6 +622,7 @@ footer .right-container p {
     .contact .container {
         flex-direction: column;
         padding: unset;
+        overflow: hidden;
     }
 
     .contact .left-container {
