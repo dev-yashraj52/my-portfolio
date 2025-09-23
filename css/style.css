@@ -348,6 +348,12 @@ p {
     opacity: 70%;
 }
 
+/* contact section */
+.contact {
+    background-color: #333645;
+    min-height: 80vh;
+}
+
 /* utilities */
 .container {
     max-width: 1400px;
