@@ -416,8 +416,67 @@ p {
 /* footer */
 footer {
     background-color: #242734;
-    min-height: 25vh;
+    min-height: 30vh;
 }
+
+footer .container {
+    align-items: center;
+    min-height: 30vh;
+}
+
+footer .title {
+    color: #FFC255;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+footer .description {
+    opacity: 70%;
+    font-size: 18px;
+}
+
+footer .social {
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+footer .links {
+    margin-top: unset;
+    gap: 0;
+}
+
+footer .container .flex {
+    flex-direction: column;
+}
+
+footer .left-container {
+    flex: 3 1 0;
+    align-items: flex-start;
+    justify-self: center;
+    margin-left: 40px;
+}
+
+footer .right-container {
+    flex: 2 1 0;
+    align-items: flex-end;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer a {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+footer .right-container p {
+    margin-top: 40px;
+    margin-right: 15px;
+    opacity: 70%;
+}
+
 
 /* utilities */
 .container {
