@@ -557,4 +557,33 @@ footer {
         padding: 0px 30px;
         font-size: 22px;
     }
+
+
+    /* contact-mobile */
+    .contact .container {
+        flex-direction: column;
+        padding: unset;
+
+    }
+
+    .contact .left-container {
+        width: 100vw;
+        margin-top: 8vh;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .contact-form input {
+        width: 80vw;
+    }
+
+    .contact-form input[value="Submit"] {
+        width: 80vw;
+        border-radius: 10px;
+    }
+
+    .contact img {
+        width: 100vw;
+    }
+
 }
