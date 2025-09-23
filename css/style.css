@@ -622,7 +622,6 @@ footer .right-container p {
     .contact .container {
         flex-direction: column;
         padding: unset;
-
     }
 
     .contact .left-container {
@@ -643,6 +642,29 @@ footer .right-container p {
 
     .contact img {
         width: 100vw;
+    }
+
+    /* footer mobile view */
+    footer .container {
+        flex-direction: column;
+        padding: unset;
+        padding: 5vh 0;
+    }
+
+    footer .left-container {
+        align-items: center;
+        margin: 0;
+    }
+
+    footer .social {
+        margin-top: 10px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    footer .right-container {
+        margin-top: 40px;
+        align-items: center;
     }
 
 }
