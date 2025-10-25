@@ -348,6 +348,14 @@ p {
     opacity: 70%;
 }
 
+/* about-me section */
+
+.about-me {
+    /* choosed different color theme */
+    background-color: #1b1d27;
+    min-height: 80vh;
+}
+
 /* contact section */
 .contact {
     background-color: #333645;
