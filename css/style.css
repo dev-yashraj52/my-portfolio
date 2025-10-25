@@ -662,6 +662,30 @@ footer .right-container p {
         font-size: 22px;
     }
 
+    /* about-me-mobile */
+    .about-me .container {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .about-me .left-container {
+        padding: 60px 20px 40px 20px;
+    }
+
+    .about-me .right-container {
+        padding: 0px 0px 80px 0px;
+    }
+
+    h5 {
+        margin: 0 0 20px 0;
+    }
+
+    .about-me img {
+        width: 75vw;
+
+        height: 40vw;
+        object-fit: cover;
+    }
 
     /* contact-mobile */
     .contact .container {
